@@ -5,7 +5,7 @@ used as templates for new projects in Lock. Lock is in development.
 
 It's very early stage, these are initial ideas, so the format of the metadata is likely to change.
 
-### What is this
+### What is this?
 
 The basic idea is that [Lock](https://github.com/spoonboy-io/lock) will poll this repository for data about repositories
 which contain morpheus plugins, templates, starters - maybe even production versions.
@@ -26,6 +26,8 @@ Metadata is "currently" YAML syntax, and this is the "current" configuration for
     category: a category
     description: description of the plugin/repo
     url: url from which the repo can be cloned
+    
+    ## tags are for additional metadata not tags from the repository
     tags: tag1,tag2,tag3
     
     ## these below configuration options are shown with their defaults
