@@ -1,19 +1,24 @@
 # Lock Plugin Metadata
 
-This repository contains metadata about the plugin starter packages which can be 
-used as templates for new projects in Lock. Lock is in development.
+This repository contains metadata about the Morpheus plugin starter packages which can be 
+used as templates for new plugin projects via Lock. 
 
-It's very early stage, these are initial ideas, so the format of the metadata is likely to change.
+### Summary
 
-### What is this?
+Lock is a CLI tool which will scaffold a new Morpheus plugin development project directory with skeleton code from a git repository: code which should build locally and upload to Morpheus. A good solid place to start, so that what you break next is on you ;)
+
+Lock may also help with the developer feedback loop, building and uploading on file change, and feeding back. It is possible.
+
+Lock is in development. It's very early stage and these are initial ideas, so the format of the metadata included here is likely to change.
+
+### How?
 
 The basic idea is that [Lock](https://github.com/spoonboy-io/lock) will poll this repository for data about repositories
-which contain morpheus plugins: templates, starters, maybe even production versions.
+which contain morpheus plugins: templates, starters, maybe even production quality plugins (but we have [share.morpheusdata.com](https://share.morpheusdata.com) for that).
 
 Lock will create projects by cloning a repository and checking out a specific tag in the cloned repository - or default to head.
 
-All the tag info will be found by cloning, but format inconsistency is likely. The metadata here is limited but aims to inform Lock how to interprete the branch/tag/release naming system
-used in each repository, and indeed the availability of it, when displaying repositories which can be used as starters.
+All the tag info will be found by cloning, but format inconsistency is likely. The metadata here is limited but aims to inform Lock how to interprete the branch/tag/release naming system used in each repository, and indeed the availability of it, when displaying repositories which can be used as starters.
 
 Metadata is "currently" YAML syntax, and this is the "current" configuration format: 
 
