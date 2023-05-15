@@ -8,13 +8,11 @@ It's very early stage, these are initial ideas, so the format of the metadata is
 ### What is this?
 
 The basic idea is that [Lock](https://github.com/spoonboy-io/lock) will poll this repository for data about repositories
-which contain morpheus plugins, templates, starters - maybe even production versions.
+which contain morpheus plugins: templates, starters, maybe even production versions.
 
-Lock will create projects by cloning a repository and checking out a specify tag in the clone repository - or default to head.
+Lock will create projects by cloning a repository and checking out a specific tag in the cloned repository - or default to head.
 
-All the tag info will be found by cloning, but format inconsistency is likely.
-
-The metadata here is limited but aims to inform Lock how to interprete the branch/tag/release naming system
+All the tag info will be found by cloning, but format inconsistency is likely. The metadata here is limited but aims to inform Lock how to interprete the branch/tag/release naming system
 used in each repository, and indeed the availability of it, when displaying repositories which can be used as starters.
 
 Metadata is "currently" YAML syntax, and this is the "current" configuration format: 
