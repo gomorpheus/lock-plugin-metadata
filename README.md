@@ -25,7 +25,7 @@ Metadata is "currently" YAML syntax, and this is the "current" configuration for
 ```yaml
 ---
 - plugin:
-    ## category: approvals, cypher, dns, tab, ipam, task, report, cloud, or backup
+    ## category: approval, cypher, dns, tab, ipam, task, report, cloud, or backup
     category: a category
     description: description of the plugin/repo
     url: url from which the repo can be cloned
