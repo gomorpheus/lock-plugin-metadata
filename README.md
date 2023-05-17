@@ -40,6 +40,7 @@ Metadata is "currently" YAML syntax, and this is the "current" configuration for
       semanticPrefix: v
       morpheus: true
       morpheusPrefix: morpheus
+    minimumMorpheus: 6.1.0  
     disabled: false
 ```
 
