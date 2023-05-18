@@ -4,4 +4,8 @@
     description: Shows a tab, which reads from a database table and allows delete operations via controller
     url: https://github.com/spoonboy-io/custom-tab-plugin.git
     tags: database,starter,controller,ui
-    minimumMorpheus: 6.0.0  
+    minimumMorpheus: 6.0.0
+    versioning:
+        semantic: true
+        morpheus: true
+ 
