@@ -36,9 +36,9 @@ Metadata is "currently" YAML syntax, and this is the "current" configuration for
     ## these below configuration options are shown with their defaults
     ## unless a different value is specified they may be omitted
     versioning:
-      semantic: true 
+      semantic: false 
       semanticPrefix: v
-      morpheus: true
+      morpheus: false
       morpheusPrefix: morpheus
     minimumMorpheus: 6.1.0  
     disabled: false
