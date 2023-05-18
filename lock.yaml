@@ -8,4 +8,15 @@
     versioning:
         semantic: true
         morpheus: true
+
+- plugin:
+      category: cypher
+      description: A plugin for CyberArk credential storage
+      url: https://github.com/gomorpheus/morpheus-cyberark-plugin.git
+      tags: credentials,cyberark,cypher
+      minimumMorpheus: 5.5.2
+      versioning:
+          semantic: true
+          semanticPrefix: rel-
+          morpheus: false
  
