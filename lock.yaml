@@ -10,13 +10,11 @@
         morpheus: true
 
 - plugin:
-      category: cypher
-      description: A plugin for CyberArk credential storage
-      url: https://github.com/gomorpheus/morpheus-cyberark-plugin.git
-      tags: credentials,cyberark,cypher
-      minimumMorpheus: 5.5.2
-      versioning:
-          semantic: true
-          semanticPrefix: rel-
-          morpheus: false
- 
+    category: tab
+    description: Shows a configurable iframe in a tab, iframe src, iframe height, tab title and tab heading can be configured
+    url: https://github.com/spoonboy-io/iframe-tab-plugin.git
+    tags: ui,iframe,tab
+    minimumMorpheus: 6.1.1
+    versioning:
+        semantic: true
+        morpheus: true
